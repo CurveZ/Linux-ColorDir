@@ -4,14 +4,14 @@ ColorDir is a Linux command-line tool that provides a colorful and emoji-enhance
 
 ## About
 
-```
+
   ____      _            ____  _      _
  / ___|___ | | ___  _ __|  _ \(_)_ __| |
 | |   / _ \| |/ _ \| '__| | | | | '__| |
 | |__| (_) | | (_) | |  | |_| | | |  |_|
  \____\___/|_|\___/|_|  |____/|_|_|  (_)
            !!About ColorDir. v. beta 0.3
-```
+
 This program lists directory contents with color coding.
 
 **History**:  
@@ -19,7 +19,7 @@ About 30 years ago, I discovered HDIR, a simple tool that brought color to my di
 I loved it then, and today, I set out to create a tribute to it: ColorDir.  
 Not as a replacement for `ls` and its deeper functionalities, but as both a nostalgic homage and an aesthetically pleasing way to view files, wrapped in the colors of the past.
 
-Best regards 💌 [endre@neset.love](mailto:endre@neset.love)
+Best regards 💌 [Contact me on GitHub](https://github.com/Curvez)
 
 ## Features
 
@@ -39,6 +39,16 @@ To install, run the following command:
 sudo wget -O /c https://kervels.net/colordir/c && sudo chmod a+rx /c
 ```
 
+## Download
+
+You can download the latest version of ColorDir from the [Releases page](https://github.com/yourusername/colordir/releases/latest).
+
+Alternatively, use the following command to download and install directly:
+
+```bash
+sudo wget -O /c https://kervels.net/colordir/c && sudo chmod a+rx /c
+```
+
 ## Usage
 
 ```bash
@@ -53,38 +63,6 @@ c [flags] [directory] [pattern]
 - `-r, --recursive`  Recursive listing.
 - `-p, --pause`      Pause after each screen of output.
 - `-h, --help`       Display help information.
-
-### Examples
-
-1. List all files in the current directory (default):
-   ```bash
-   c
-   ```
-
-2. List all files recursively with detailed listing:
-   ```bash
-   c -r -l
-   ```
-
-3. List `.txt` files in a specific directory:
-   ```bash
-   c /user/docs "*.txt"
-   ```
-
-4. List files recursively in wide format:
-   ```bash
-   c -r -w
-   ```
-
-5. List files containing an `x`:
-   ```bash
-   c "*[x]*"
-   ```
-
-6. List files that do not contain a number:
-   ```bash
-   c "*[!0-9]*"
-   ```
 
 ## Tested Systems
 
@@ -115,13 +93,10 @@ c [flags] [directory] [pattern]
 - macOS compatibility.
 - WSL support or dedicated version.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Acknowledgments
 
-ColorDir is a tribute to the classic HDIR tool, bringing its nostalgic charm to modern Linux systems.
+ColorDir is a tribute to the classic MS-DOS HotDir tool, bringing its nostalgic charm to modern Linux systems.
 
 ---
 
