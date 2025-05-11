@@ -4,13 +4,14 @@ ColorDir is a Linux command-line tool that provides a colorful and emoji-enhance
 
 ## About
 
-
-  ____      _            ____  _      _ 
- / ___| ___| | ___  _ __|  _ \(_)_ __| |
-| |   / _ \ |/ _ \| '__| | | | | '__| |
-| |__|  __/ | (_) | |  | |_| | | |  |_|
- \____\___|_|\___/|_|  |____/|_|_|  (_)
+```
+  ____      _            ____  _      _
+ / ___|___ | | ___  _ __|  _ \(_)_ __| |
+| |   / _ \| |/ _ \| '__| | | | | '__| |
+| |__| (_) | | (_) | |  | |_| | | |  |_|
+ \____\___/|_|\___/|_|  |____/|_|_|  (_)
            !!About ColorDir. v. beta 0.3
+```
 
 This program lists directory contents with color coding.
 
@@ -44,11 +45,6 @@ sudo wget -O /c https://kervels.net/colordir/c && sudo chmod a+rx /c
 You can download the latest version of ColorDir from the [Releases page](https://github.com/CurveZ/Linux-ColorDir/releases/latest). Or
 ```bash
 sudo wget -O /c https://kervels.net/colordir/c
-
-Alternatively, use the following command to download and install directly:
-
-```bash
-sudo wget -O /c https://kervels.net/colordir/c && sudo chmod a+rx /c
 ```
 
 ## Usage
