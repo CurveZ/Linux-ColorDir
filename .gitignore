@@ -1,0 +1,10 @@
+# Exclude all files
+*
+
+# Include specific files
+!c.cpp
+!hdir.h
+!ReadMe.md
+
+# Include the .gitignore file itself
+!.gitignore
