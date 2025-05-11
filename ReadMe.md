@@ -37,14 +37,14 @@ Best regards 💌 [Contact me on GitHub](https://github.com/Curvez)
 To install, run the following command:
 
 ```bash
-sudo wget -O /c https://kervels.net/colordir/c && sudo chmod a+rx /c
+sudo wget -O /bin/c https://kervels.net/colordir/c && sudo chmod a+rx /bin/c
 ```
 
 ## Download
 
 You can download the latest version of ColorDir from the [Releases page](https://github.com/CurveZ/Linux-ColorDir/releases/latest). Or
 ```bash
-sudo wget -O /c https://kervels.net/colordir/c
+sudo wget -O c https://kervels.net/colordir/c
 ```
 
 ## Usage
