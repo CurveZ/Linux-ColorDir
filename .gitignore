@@ -5,6 +5,7 @@
 !c.cpp
 !hdir.h
 !ReadMe.md
+!assets/screenshot.jpg
 
 # Include the .gitignore file itself
 !.gitignore
