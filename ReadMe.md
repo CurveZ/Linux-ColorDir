@@ -2,25 +2,19 @@
 
 ColorDir is a Linux command-line tool that provides a colorful and emoji-enhanced directory listing, inspired by the classic HDIR tool for DOS. It categorizes files by type and displays them with appropriate colors and icons for better visual clarity.
 
-## About
+## History:  
+About 30 years ago, I discovered HotDIR (hdir.com), a simple tool that brought color to my directory listings in MS-DOS. I loved it then, and today, I set out to create a tribute to it: ColorDir. Not as a replacement for `ls` or its deeper functionalities, but as both a nostalgic homage and an aesthetically pleasing way to view files, wrapped in the colors of the past.
 
-```
-  ____      _            ____  _      _
- / ___|___ | | ___  _ __|  _ \(_)_ __| |
-| |   / _ \| |/ _ \| '__| | | | | '__| |
-| |__| (_) | | (_) | |  | |_| | | |  |_|
- \____\___/|_|\___/|_|  |____/|_|_|  (_)
-           !!About ColorDir. v. beta 0.3
-```
+[💌 Contact me @ GitHub 💌](https://github.com/Curvez)
 
-This program lists directory contents with color coding.
+---
 
-**History**:  
-About 30 years ago, I discovered HDIR, a simple tool that brought color to my directory listings in DOS.  
-I loved it then, and today, I set out to create a tribute to it: ColorDir.  
-Not as a replacement for `ls` and its deeper functionalities, but as both a nostalgic homage and an aesthetically pleasing way to view files, wrapped in the colors of the past.
+## Program Website
 
-Best regards 💌 [Contact me on GitHub](https://github.com/Curvez)
+Visit the official project webpage for more details:  
+👉 **[@keRveL's NET](https://kervels.net/colordir)** 👈
+
+---
 
 ## Features
 
@@ -32,40 +26,32 @@ Best regards 💌 [Contact me on GitHub](https://github.com/Curvez)
 - **Customizable patterns**: Supports wildcard patterns (`*`, `?`) for filtering files.
 - **Error handling**: Graceful handling of invalid directories and unknown flags.
 
+---
+
 ## Installation
 
 To install, run the following command:
 
 ```bash
-sudo wget -O /bin/c https://kervels.net/colordir/c && sudo chmod a+rx /bin/c
+sudo wget -O /bin/c https://github.com/CurveZ/Linux-ColorDir/releases/latest/download/c && sudo chmod a+rx /bin/c
 ```
 
 ## Download
 
-You can download the latest version of ColorDir from the [Releases page](https://github.com/CurveZ/Linux-ColorDir/releases/latest). Or
-```bash
-sudo wget -O c https://kervels.net/colordir/c
-```
+[You can download the latest version of ColorDir from the releases page](https://github.com/CurveZ/Linux-ColorDir/releases/latest).
 
-## Usage
+[Or use this direct link to the latest release binary](https://github.com/CurveZ/Linux-ColorDir/releases/latest/download/c)
 
-```bash
-c [flags] [directory] [pattern]
-```
 
-### Flags
+---
 
-- `-l, --list`       Force list view.
-- `-w, --wide`       Force columns view.
-- `-t, --total`      Display total size of directories and subdirectories.
-- `-r, --recursive`  Recursive listing.
-- `-p, --pause`      Pause after each screen of output.
-- `-h, --help`       Display help information.
 
 ## Tested Systems
 
 - Developed and tested on **Ubuntu Server 24.04 LTS**.  
 - Likely compatible with other Linux distributions.
+
+---
 
 ## To-Do
 
@@ -91,11 +77,22 @@ c [flags] [directory] [pattern]
 - macOS compatibility.
 - WSL support or dedicated version.
 
-
-## Acknowledgments
-
-ColorDir is a tribute to the classic MS-DOS HotDir tool, bringing its nostalgic charm to modern Linux systems.
-
 ---
 
-Visit the project webpage: [https://kervels.net/colordir](https://kervels.net/colordir)
+## Contribute
+
+Contributions are welcome! If you'd like to improve ColorDir, here’s how you can help:
+
+1. **Report Issues**: Found a bug or have a feature request? Open an issue on the [GitHub Issues page](https://github.com/CurveZ/Linux-ColorDir/issues).
+2. **Submit Pull Requests**: Fork the repository, make your changes, and submit a pull request. Please ensure your code follows the existing style and includes relevant comments.
+3. **Test and Provide Feedback**: Test ColorDir on different Linux distributions or environments and share your feedback.
+4. **Spread the Word**: Share ColorDir with others who might find it useful!
+### Development Setup
+
+To set up the project locally:
+```bash
+# Clone the repository
+git clone https://github.com/CurveZ/Linux-ColorDir.git
+g++ -o c c.cpp --static
+
+
